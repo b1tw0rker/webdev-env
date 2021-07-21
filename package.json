@@ -1,7 +1,7 @@
 {
     "name": "bw-webdev-env",
     "version": "1.0.1",
-    "description": "My Webdev Environment, for a fast setup ",
+    "description": "Webdev Environment, for nuts and a fast setup",
     "main": "index.js",
     "scripts": {
         "dev": "gulp dev",
@@ -21,7 +21,7 @@
         "SASS",
         "HTML"
     ],
-    "author": "Johannes Schiel",
+    "author": "Nick Herrmann",
     "license": "ISC",
     "bugs": {
         "url": "https://github.com/b1tw0rker/webdev-env/issues"
