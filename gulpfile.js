@@ -1,9 +1,12 @@
 // Import important packages
 const gulp = require('gulp');
+const phpConnect = require("gulp-connect-php");
 const plumber = require('gulp-plumber');
 const rename = require('gulp-rename');
 const browserSync = require('browser-sync').create();
 const sourcemaps = require('gulp-sourcemaps');
+const del = require("del");
+//const gulpIf = require('gulp-if')
 
 // SASS -> CSS
 const sass = require('gulp-sass')(require('sass'));
