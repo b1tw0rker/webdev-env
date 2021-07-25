@@ -121,7 +121,7 @@ const assets = () => {
 
 // Watch changes and refresh page
 const watch = () => gulp.watch(
-    [`${src}/*.html`, `${src}/script/**/*.(js|ts)`, `${src}/sass/**/*.{sass,scss}`, `${src}/assets/**/*.*`],
+    [`${src}/*.html`,  `${src}/*.php`, `${src}/**/*.php`, `${src}/script/**/*.(js|ts)`, `${src}/sass/**/*.{sass,scss}`, `${src}/assets/**/*.*`],
     gulp.series(assets, css, script, html, reload));
 
 // Development tasks
